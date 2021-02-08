@@ -52,3 +52,66 @@ navItems[4].textContent = 'About'
 navItems[5].textContent = 'Contact'
 //console.log(navItems)
 
+const cta = document.querySelector('.cta')
+const ctaText = document.querySelector('.cta-text h1')
+const button = document.querySelector('.cta-text button')
+const brTag = document.createElement('br')
+ctaText.innerHTML = `DOM<br>Is<br> Awesome`
+
+button.textContent = 'Get Started'
+
+
+const ctaImg = document.querySelector('#cta-img')
+ctaImg.src = "img/header-img.png"
+
+
+//Main-content
+const topContent = document.querySelectorAll('.top-content .text-content')
+const contentH4 = document.querySelectorAll('.text-content h4')
+contentH4[0].textContent = 'Features'
+
+const contentP = document.querySelectorAll('.text-content p')
+
+contentP[0].textContent = `Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,
+in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+scelerisque quis.`
+
+contentH4[1].textContent = 'About'
+
+contentP[1].textContent = `About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in
+interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+scelerisque quis.`
+
+
+const topImg = document.querySelector('#middle-img').src = 'img/mid-page-accent.jpg'
+
+//bottom-content
+
+contentH4[2].textContent = 'Services'
+
+contentP[2].textContent = `Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,
+in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+scelerisque quis.`
+
+contentH4[3].textContent = 'Product'
+
+contentP[3].textContent = `Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in
+interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+scelerisque quis.`
+
+contentH4[4].textContent = 'Vision'
+
+contentP[4].textContent = `Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in
+interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus
+scelerisque quis.`
+
+
+//Contact
+
+const contact = document.querySelector('.contact h4').textContent = 'Contact'
+
+const contactP = document.querySelectorAll('.contact p')
+
+contactP[0].innerHTML = `123 Way 456 Street<br>Somewhere, USA`
+contactP[1].textContent = '1 (888) 888-8888'
+contactP[2].textContent = 'sales@greatidea.io'
